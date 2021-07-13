@@ -1,0 +1,166 @@
+.equation_box {
+    padding: 10px;
+    background-color: lightcyan;
+    border-radius: 10px;
+    text-align:center;
+    display:inline-block;
+    width:500px;
+    position: relative;
+    top: 90px;
+}
+
+h1 {
+    text-align:center;
+}
+
+.center_container {
+    text-align:center;
+    position: relative;
+    display:block;
+}
+
+#stock_photo {
+    display: inline-block;
+}
+
+nav ul {
+    display: inline-block;
+}
+
+#hint_1 {
+    padding: 10px;
+    background-color: red;
+    border-radius: 10px;
+    text-align:center;
+    display: none;
+    width:500px;
+    float:center;
+    position: relative;
+    top: 90px;
+}
+
+
+#hint_2 {
+    padding: 10px;
+    background-color: lightcyan;
+    border-radius: 10px;
+    text-align:center;
+    display: none;
+    width:500px;
+    float:center;
+    position: relative;
+    top: 90px;
+}
+
+#hint_3 {
+    padding: 10px;
+    background-color: lightcyan;
+    border-radius: 10px;
+    text-align:center;
+    display: none;
+    width:500px;
+    float:center;
+    position: relative;
+}
+
+#hint_4 {
+    padding: 10px;
+    background-color: lightcyan;
+    border-radius: 10px;
+    text-align:center;
+    display: none;
+    width:500px;
+    float:center;
+    position: relative;
+    top:90px;
+}
+
+#hint_5 {
+    padding: 10px;
+    background-color: lightcyan;
+    border-radius: 10px;
+    text-align:center;
+    display: none;
+    width:500px;
+    float:center;
+    position:relative;
+    top: 90px;
+}
+
+#hint_6 {
+    padding: 10px;
+    background-color: lightcyan;
+    border-radius: 10px;
+    text-align:center;
+    display: none;
+    width:500px;
+    float:center;
+    position: relative;
+    top: 90px;
+}
+
+#hint_7 {
+    padding: 10px;
+    background-color: lightcyan;
+    border-radius: 10px;
+    text-align:center;
+    display: none;
+    width:500px;
+    float:center;
+    position:relative;
+    top: 90px;
+}
+
+#neg_sign {
+    display:none;
+}
+
+.popup .popuptext {
+    visibility: hidden;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+header {
+    background-color: #152679;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+nav li {
+    font-size: 22px;
+    margin: 40px;
+    display: inline-block;
+    width: 275px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+.button1 {
+    border-radius: 7px;
+    border: solid darkblue 2px;
+}
